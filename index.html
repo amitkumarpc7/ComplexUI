@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link rel="shortcut icon" href="./images/fivicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header class="header" id="head">
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e1f1fd;">
+            <div class="container-fluid container">
+              <a class="navbar-brand" href="#">Complex UI</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 sea-rch" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+<!-- Carousel -->
+    <main class="main">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-height">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active carousel-image bg-img-1" data-bs-interval="3000">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item carousel-image bg-img-2" data-bs-interval="3000">
+                
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item carousel-image bg-img-3" data-bs-interval="3000">
+    
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <section class="albums">
+
+              <section class="flex-1">
+                   <div class="boxes cont-ainer">
+                      <div class="box box1">
+                          <div>
+                              <img src="https://images.unsplash.com/photo-1682685797332-e678a04f8a64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="">
+                          </div>
+                          Short description
+                      </div>
+                      <div class="box box2">
+                          <div>
+                              <img src="https://images.unsplash.com/photo-1682687219573-3fd75f982217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80" alt="">
+                          </div>
+                          Short description
+                      </div>
+                      <div class="box box3">
+                          <div>
+                              <img src="https://images.unsplash.com/photo-1682685797208-c741d58c2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                          </div>
+                          Short description
+                      </div>
+                   </div>   
+              </section>
+          
+              <section class="grid-1">
+                  <div class="cont-ainer">
+                    <div class="boxes">
+                        <div class="box box1"></div>
+                        <div class="box box2"></div>
+                        <div class="box box3"></div>
+                        <div class="box box4"></div>
+                        <div class="box box5"></div>
+                        <div class="box box6"></div>
+                        <div class="box box7"></div>
+                        <div class="box box8"></div>
+                        <div class="box box9"></div>
+                    </div>
+                  </div>
+              </section>
+          
+              <section class="flex-2">
+                <div class="cont-ainer">
+
+                  <div class="cards">
+
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1680725950666-92d1dd713513?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1680726080165-a7209b9d253e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                    </div>
+    
+                    <div class="card">
+                      <img src="https://images.unsplash.com/photo-1682366748076-8773692a7594?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI3fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Call to Action</a>
+                      </div>
+                  </div>
+
+                  </div>
+                </div>
+              </section>
+                   
+
+          </section>
+    </main>
+
+    <footer class="footer">
+      <div class="cont-ainer">
+        <div class="foot">
+          <div class="links">
+            <div class="link link1">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a>Link1</a></li>
+                <li><a>Link2</a></li>
+                <li><a>Link3</a></li>
+              </ul>
+            </div>
+
+            <div class="link link2">
+              <h5>More links</h5>
+              <ul>
+                <li><a>Link1</a></li>
+                <li><a>Link2</a></li>
+                <li><a>Link3</a></li>
+              </ul>
+            </div>
+
+            <div class="link link3">
+              <h5>Contact US</h5>
+              <ul>
+                <li>example@abc.com</li>
+                <li>Phone: 123897989</li>
+                
+              </ul>
+            </div>
+
+            
+          </div>
+
+          <div class="copywrite">
+            <p>&copy; 2023 Complex UI, All Rights Reserved</p>
+            <a href="#head" class="btn">Back To Top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
